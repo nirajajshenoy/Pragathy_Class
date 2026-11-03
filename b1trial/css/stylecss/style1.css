@@ -1,0 +1,46 @@
+.main{
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+    border: solid 2px black;
+    margin: auto;
+    /* position: relative; */
+}
+.one{
+    height: 30px;
+    width:30px;
+    background-color: blue;
+    margin: 2px;
+    position: relative;
+    top: 10px;
+    left:20px;
+}
+.two{
+    height: 30px;
+    width:30px;
+    background-color: rgb(255, 89, 0);
+    margin: 2px;
+    position: absolute;
+    top:20px;
+}
+.three{
+    height: 30px;
+    width:30px;
+    background-color: rgb(64, 160, 32);
+    margin: 2px;
+    position: fixed;
+    right:10px;
+}
+.four{
+    height: 30px;
+    width:30px;
+    background-color: rgb(29, 210, 134);
+    margin: 2px;
+    position: sticky;
+    top:0px;
+}
+h1{
+    background-color: bisque;
+    position: sticky;
+    top: 0px;
+}

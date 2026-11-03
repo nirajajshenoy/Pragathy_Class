@@ -1,0 +1,43 @@
+.col{
+    /* width:33%; */
+    height: 400px;
+    border-style: none;
+    border-left: 2px solid green;
+    padding: 5px;
+    text-align: justify;
+   
+}
+
+.cat{
+    display :flex;
+    margin: 30px;
+    padding: 10px;
+}
+ img{
+        width: 200px;
+      }
+
+      img:hover {
+        opacity: 0.5;
+      }
+    
+ /* Mobile */
+@media only screen and (max-width: 600px) {
+    .cat {
+        flex-direction: column;
+    }
+
+    .col {
+        /* width: 100%; */
+        height: auto;
+    }
+}
+
+/* Tablet and small laptop */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .col {
+        /* width: 48%; */
+        height: auto;
+        /* flex-direction: row; */
+    }
+}
